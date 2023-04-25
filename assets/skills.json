@@ -1,0 +1,28 @@
+[
+  {
+    "_id": 1,
+    "name": "Angular",
+    "description": "Some text",
+    "icons": [
+      {
+        "image": "url"
+      },
+      {
+        "name": "Jane Doe"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "name": "React.js",
+    "description": "Some text",
+    "icons": [
+      {
+        "image": "url"
+      },
+      {
+        "name": "John Smith"
+      }
+    ]
+  }
+]
