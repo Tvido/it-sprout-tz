@@ -1,15 +1,15 @@
 const all = require("./all");
 
-const getById = async (contactId) => {
+const getById = async (skillId) => {
   try {
-    const contacts = await all();
-    const selectContact = contacts.find(
-      (item) => String(item.id) === String(contactId)
+    const skills = await all();
+    const selectSkill = skills.find(
+      (item) => String(item.id) === String(skillId)
     );
-    if (!selectContact) {
+    if (!selectSkill) {
       return null;
     }
-    return selectContact;
+    return selectSkill;
   } catch (error) {
     throw error;
   }

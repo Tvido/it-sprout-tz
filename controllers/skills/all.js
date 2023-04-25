@@ -4,7 +4,7 @@ const all = async (__, res, next) => {
   try {
     const skills = await skillsOperations.all();
     res.json({
-      result: skills,
+      skills,
       status: "success",
       code: 200,
     });
